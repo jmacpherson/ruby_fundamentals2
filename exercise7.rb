@@ -11,3 +11,7 @@ def show_cohort_enrollment(cohort_list)
 end
 
 show_cohort_enrollment(students)
+
+students[:cohort4] = 43
+
+puts students.keys
