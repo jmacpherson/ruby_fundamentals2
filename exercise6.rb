@@ -23,3 +23,6 @@ end
 
 #What's the second item?
 puts grocery_list[1]
+
+#sort grocery list
+print_list(grocery_list.sort)
