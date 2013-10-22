@@ -25,4 +25,8 @@ end
 puts grocery_list[1]
 
 #sort grocery list
-print_list(grocery_list.sort)
+print_list(grocery_list.sort!)
+
+#removing salmon from list and redisplaying
+grocery_list.delete("salmon")
+print_list(grocery_list)
