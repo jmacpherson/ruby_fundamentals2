@@ -15,3 +15,9 @@ show_cohort_enrollment(students)
 students[:cohort4] = 43
 
 puts students.keys
+
+students.each do |key,value|
+  students[key] += students[key] * 0.05
+end
+
+show_cohort_enrollment(students)
