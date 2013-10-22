@@ -21,3 +21,6 @@ students.each do |key,value|
 end
 
 show_cohort_enrollment(students)
+
+students.delete(:cohort2)
+show_cohort_enrollment(students)
