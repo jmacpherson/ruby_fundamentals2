@@ -24,3 +24,10 @@ show_cohort_enrollment(students)
 
 students.delete(:cohort2)
 show_cohort_enrollment(students)
+
+total_students = 0 # not including cohort2
+students.each do |key,value|
+  total_students += value
+end
+
+puts total_students
